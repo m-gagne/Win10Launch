@@ -1,0 +1,56 @@
+html, body {
+	background-color: #0078d7;
+	color: #fff;
+}
+
+.flip-clock-divider .flip-clock-label {
+	color: #fff;
+}
+
+.header h1 { 
+	font-family: 'Roboto', sans-serif;
+    text-align: center; 
+	margin: 1em 0; 
+	font-size: 64px; 
+	color: #fff; 
+	font-weight: 100;
+}
+
+.win10 {
+	background-image: url('../images/windows-10.png');
+	width: 478px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.clock {
+	width: 660px;
+	height: 120px;
+	margin: 100px auto;
+}
+
+.upgrade a, .upgrade a:visited, .upgrade a:hover {
+	font-family: 'Roboto', sans-serif;
+    text-align: center; 
+	font-size: 32px; 
+	color: #0078d7; 
+	font-weight: 100;
+	text-decoration: none;
+	background: #fff;
+	padding: 10px 20px;
+	border: 2px solid transparent;
+}
+
+.upgrade {
+	display: block;
+	width: 338px;
+	height: 40px;
+	margin: 100px auto;
+}
+.upgrade a:hover {
+	border: 2px solid rgba(190, 190, 190, 0.551593);
+}

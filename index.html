@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="compiled/flipclock.css">
+		<link rel="stylesheet" href="css/site.css">
+
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+
+		<script src="compiled/flipclock.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	<div class="header">
+		<h1>When can I get my free<div class="win10"></div> Upgrade?</h1>
+	</div>
+	<div class="clock"></div>
+	<div class="message"></div>
+	<div class="upgrade">
+		<a href="http://www.microsoft.com/en-us/windows/windows-10-upgrade">Reserve Windows 10</a>
+	</div>
+
+			<script type="text/javascript">
+			var clock;
+
+			$(document).ready(function() {
+
+				// Grab the current date
+				var currentDate = new Date();
+
+				var futureDate  = new Date(2015, 06, 29);
+
+				// Calculate the difference in seconds between the future and current date
+				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+				// Instantiate a coutdown FlipClock
+				clock = $('.clock').FlipClock(diff, {
+					clockFace: 'DailyCounter',
+					countdown: true
+				});
+			});
+		</script>
+
+	
+	</body>
+</html>
