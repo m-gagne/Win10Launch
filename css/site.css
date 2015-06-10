@@ -1,6 +1,7 @@
 html, body {
 	background-color: #0078d7;
 	color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
 
 .flip-clock-divider .flip-clock-label {
@@ -8,7 +9,6 @@ html, body {
 }
 
 .header h1 { 
-	font-family: 'Roboto', sans-serif;
     text-align: center; 
 	margin: 1em 0; 
 	font-size: 64px; 
@@ -16,6 +16,18 @@ html, body {
 	font-weight: 100;
 }
 
+.footer {
+	text-align: center; 
+	position: relative;
+	padding-bottom: 50px;
+	bottom: -100px;
+	color: #d2d2d2;
+}
+
+.footer a, .footer a:hover, .footer a:visited {
+	text-decoration: none;
+	color: #fff;
+}
 .win10 {
 	background-image: url('../images/windows-10.png');
 	width: 478px;
@@ -34,7 +46,6 @@ html, body {
 }
 
 .upgrade a, .upgrade a:visited, .upgrade a:hover {
-	font-family: 'Roboto', sans-serif;
     text-align: center; 
 	font-size: 32px; 
 	color: #0078d7; 
